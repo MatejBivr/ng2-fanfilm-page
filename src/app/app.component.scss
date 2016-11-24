@@ -1,0 +1,19 @@
+// colors
+
+$primary-orange: #FF7F00;
+$primary-white: #F4FFFF;
+$primary-black: #000000;
+$secundary-red: #FF3000;
+$secundary-green: #90C83C;
+$secundary-teal: #47E6DC;
+
+
+md-sidenav-layout{
+	min-height: 100vh;
+}
+
+md-sidenav{
+	border-top: 5px solid $primary-orange;
+	background-color: $primary-black;
+	min-width: 250px;
+}
