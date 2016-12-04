@@ -1,26 +1,32 @@
-<nav class="navbar navbar-fixed-top bg-faded">
-	<div class="clearfix">
-		<a class="navbar-brand" routerLink="/" routerLinkActive="active">Division</a>
-  	<button class="navbar-toggler float-xs-right" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"></button>
-	</div>
-  <div class="navbar-toggleable-xs collapse in" id="main-nav" aria-expanded="true">
-	  <ul class="nav navbar-nav">
-	    <li class="nav-item">
-	      <a class="nav-link" routerLink="/intel" routerLinkActive="active">Intel</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" routerLink="/media" routerLinkActive="active">Media</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" routerLink="/cast" routerLinkActive="active">Cast/Crew</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" routerLink="/info" routerLinkActive="active">Info</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
-	    </li>
-	  </ul>
-	</div>
-</nav>
+<md-nav-list>
+  <div class="logo-container">
+    <h2>the division</h2>
+  </div>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/intel" routerLinkActive="active">Intel</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/media" routerLinkActive="active">Media</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/cast" routerLinkActive="active">Cast/Crew</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/info" routerLinkActive="active">Info</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+    </li>
+  </ul>
+
+  <ul class="social">
+    <li class="social-item"><a href=""> <i class="fa fa-facebook"></i></a></li>
+    <li class="social-item"><a href=""> <i class="fa fa-twitter-square"></i></a></li>
+    <li class="social-item"><a href=""> <i class="fa fa-instagram"></i></a></li>
+    <li class="social-item"><a href=""> <i class="fa fa-youtube-play"></i></a></li>
+  </ul>
+</md-nav-list>  
+
+
 
