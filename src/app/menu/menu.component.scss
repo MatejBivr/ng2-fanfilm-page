@@ -1,3 +1,23 @@
 md-nav-list{
 	color: white;
+	.logo-container{
+		font-family: 'code_predators';
+		font-size: 20px;
+		text-align: center;
+	}
+	.nav{
+		list-style-type: none;
+		margin-left: 0;
+		font-size: 17px;
+		text-transform: uppercase;
+		line-height: 30px;
+	}
+	.social{
+		margin: 0 40px;
+		list-style-type: none;
+		margin-left: 0;
+		border-top: 5px solid white;
+		display: flex;
+		justify-content: space-around;
+	}
 }
