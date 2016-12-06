@@ -18,3 +18,37 @@ md-sidenav{
 	min-width: 250px;
 }
 
+md-toolbar{
+	position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 10;
+  h1 {
+  	color: $primary-white;
+		font-family: 'code_predators';
+		&:hover, &:focus {
+  		color: $primary-orange
+  	}
+  }
+  a {
+  	color: $primary-white;
+  	text-decoration: none;
+  	&:hover, &:focus {
+  		color: $primary-orange
+  	}
+  }
+}
+
+md-sidenav {
+	a {
+  	color: $primary-white;
+  	&:hover, &:focus {
+  		color: $primary-orange
+  	}
+  }
+}
+
+.filler {
+	flex: 1 1 auto;
+}

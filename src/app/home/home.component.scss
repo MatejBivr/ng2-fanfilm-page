@@ -1,3 +1,46 @@
-p{
-	font-family: 'code_predators';
+.video-container{
+	height: 100vh;
+	width: auto;
+	background: url('/assets/images/2016-11-01%20%284%29.png') center center no-repeat;
+	position: relative;
+}
+
+.play-container{
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 2;
+	height: 50px;
+	display: block;
+	color: white;
+	text-align: center;
+	border: none;
+	text-decoration: none;
+	&:hover, &:focus{
+		
+	}
+	span {
+		display: block;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: orange;
+		border: none;
+		&:hover, &:focus{
+			
+		}
+	}
+}
+.credits-container{
+	color: white;
+	text-align: center;
+	padding: 20px 0 180px;
+	text-transform: uppercase;
+	h1{
+		font-family: 'code_predators';
+	}
+	p{
+		span{
+
+		}
+	}
 }
